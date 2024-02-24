@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  min-height: 1000px;
+  margin: 50px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left-side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+.profiletext {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profiletext .imgbx {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.profiletext .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.profiletext h2 {
+  color: #ffff;
+  font-size: 1.5em;
+  margin-top: 230px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4mm;
+}
+
+.contactInfo {
+  padding-top: 40px;
+}
+.title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contactInfo ul {
+  position: relative;
+}
+.contactInfo ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon {
+  color: blue;
+  width: 30px;
+  display: inline-block;
+}
+.contactInfo ul li span {
+  color: white;
+  font-weight: 300;
+}
+.eduction ul li {
+  list-style: circle;
+
+  color: blue;
+  margin-bottom: 10px;
+  position: relative;
+}
+.eduction {
+  padding-top: 40px;
+}
+.title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.eduction ul li span {
+  color: white;
+  font-weight: 300;
+}
+.certificationsss {
+  padding-top: 40px;
+}
+.certificationsss ul li span {
+  color: white;
+  font-weight: 300;
+  list-style: circle;
+}
+.certificationsss ul li {
+  color: blue;
+  font-weight: 600;
+}
+.sss {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.caree {
+  padding-top: 40px;
+}
+.dhd {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.caree ul li {
+  color: blue;
+  font-weight: 300;
+  list-style: circle;
+}
+.caree ul li span {
+  color: white;
+  font-weight: 300;
+}
+
+.container .right-side {
+  position: relative;
+  background: #ffff;
+  padding: 40px;
+}
+.about {
+  margin-bottom: 50px;
+}
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+p {
+  color: #003147;
+}
+.About .box {
+  display: flex;
+  flex-direction: row;
+
+  margin: 20px;
+}
+.About .box .year_company {
+  min-width: 80px;
+}
+.akakaa .aka {
+  display: flex;
+  margin: 10px;
+  color: #003147;
+}
+.par {
+  margin: 10px;
+  min-width: 90px;
+}
+.par1 {
+  margin: 20px;
+  min-width: 90px;
+}
+.proj .jec {
+  margin: 10px;
+  color: #003147;
+}
+.mini {
+  margin: 10px;
+  min-width: 90px;
+}
+.maia {
+  margin: 10px;
+  min-width: 90px;
+}
+
+.langua {
+  margin: 10px;
+  color: #003147;
+}
+.h2 {
+  margin: 10px;
+  min-width: 90px;
+}
+.title4 {
+  color: #003147;
+  margin: 10px;
+}
+.title4 ul {
+  display: grid;
+  grid-template-rows: repeat(1, 4fr);
+}
+.title4 ul li {
+  min-width: 90px;
+}
+.as1 {
+  margin: 20px;
+  gap: 20px;
+  min-width: 110px;
+}
